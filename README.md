@@ -33,3 +33,9 @@ atexit
 
 undefined
 ```
+
+# Credits
+
+Big thanks to:
+- [robertkrimen/otto](https://github.com/robertkrimen/otto) for the embedded JavaScript interpreter.
+- [llir/llvm](https://github.com/llir/llvm) for the LLVM IR parser.
