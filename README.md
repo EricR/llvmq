@@ -4,7 +4,7 @@ A query tool for LLVM IR.
 ## Usage
 
 ```
-llvmq testdata/coreutils/test/stat.ll "ll.Funcs.forEach(function(func) { console.log(func.GlobalIdent.GlobalName) })"
+$ llvmq testdata/coreutils/test/stat.ll "ll.Funcs.forEach(function(func) { console.log(func.GlobalIdent.GlobalName) })"
 2018/12/15 14:11:30 Parsing testdata/coreutils/test/stat.ll
 2018/12/15 14:11:30 Parsed in 0.231463s
 2018/12/15 14:11:30 Executing query
